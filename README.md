@@ -47,6 +47,7 @@ heroku run python manage.py makemigrations
 heroku run python manage.py migrate
 python manage.py dumpdata --natural-primary --natural-foreign > dump.json
 commit again
+heroku run python manage.py loaddata dump.json
 
 
 
