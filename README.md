@@ -31,6 +31,10 @@ pip install django-on-heroku
 pip install gunicorn whitenoise
 heroku CLI
 curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+heroku login / confirmar com senha
+pip freeze > riquirements.txt
+heroku git:remote -a <vacc-ecommercebackend> #inclui git remote
+#settings incluir import / alterar Debub=False / incluir host heroku / Middleware / static root and Staticfiles Storage / django_heroku bottom
 
 
 # postgresql
