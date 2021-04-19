@@ -33,8 +33,13 @@ heroku CLI
 curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 heroku login / confirmar com senha
 pip freeze > riquirements.txt
+pip install -r requirements.txt --upgrade
 heroku git:remote -a <vacc-ecommercebackend> #inclui git remote
 #settings incluir import / alterar Debub=False / incluir host heroku / Middleware / static root and Staticfiles Storage / django_heroku bottom
+git push heroku main
+
+#appdirs==1.4.4
+#apturl==0.5.2
 
 
 # postgresql
